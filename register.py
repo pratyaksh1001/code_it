@@ -7,7 +7,7 @@ from fastapi.templating import Jinja2Templates
 
 
 from models import User
-from mongo import db
+#from mongo import db
 from cache import cache
 import bcrypt
 import sql_con as sql

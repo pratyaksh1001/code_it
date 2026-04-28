@@ -39,6 +39,7 @@ class Testcase(Base):
     qID:Mapped[int]=mapped_column(Integer())
     likes:Mapped[int]=mapped_column(Integer())
     dislikes:Mapped[int]=mapped_column(Integer())
+    code:Mapped[str]=mapped_column(String())
 
 
 class Submission(Base):

@@ -1,5 +1,5 @@
 from fastapi import APIRouter,Request
-from mongo import db
+#from mongo import db
 from cache import cache
 
 auth=APIRouter()
